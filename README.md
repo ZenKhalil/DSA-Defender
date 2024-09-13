@@ -20,7 +20,7 @@ You can see a live demo of the project [here](https://raw.githack.com/ZenKhalil/
    cd dsa-defender
 
 2. **Open the Project**: 
-   ```Open index.html in your preferred web browser to start the game.
+   Open index.html in your preferred web browser to start the game.
 
 
 ## Usage
