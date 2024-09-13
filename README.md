@@ -1,13 +1,39 @@
-# DSA-DEFENDER
+# DSA Defender
 
-Protect the planet DSA against the evil AI-robots! And beware - as soon as one AI gets to the planet, two more will spawn. Lose attention for a few seconds, and the planet will be overrun and lost to the AIs.
+DSA Defender is a simple game where enemies appear on the screen and move downwards. The goal is to prevent these enemies from reaching the bottom of the screen by interacting with them. The game uses a custom SinglyLinkedList to manage enemies dynamically.
 
-![the game in action](screenshot.png)
+## Demo
 
-Click a robot to **kill** it, and it will be gone for good, but if it reaches the bottom of the screen, it will infect the planet - making it lose health - as well as spawn another robot, thus increasing the number of attackers.
+You can see a live demo of the project [here](https://raw.githack.com/ZenKhalil/dsa-defender/main/index.html).
 
----
-The game is nearly complete, but unfortunately a requirement is that the list of enemies cannot be a JavaScript array, with the ability to push and splice, so something else must be done.
-For now the list is implemented with a StaticArray - a bit like an old-timey C or Java array - but I'm sure that something better could be used ...
+## Features
 
-Please assist by forking and fixing the code - you can easily spot all the TODOs.
+- **Dynamic Enemy Management**: Enemies are managed using a SinglyLinkedList, allowing for flexible addition and removal.
+- **Game Mechanics**: Includes basic game mechanics such as moving enemies, crashing, and handling interactions.
+- **Visuals**: Enemies and game elements are represented using simple HTML and CSS.
+
+## Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ZenKhalil/dsa-defender.git
+   cd dsa-defender
+
+2. **Open the Project**: 
+   ```Open index.html in your preferred web browser to start the game.
+
+
+## Usage
+- **Start the Game**: Simply open the index.html file in a web browser.
+- **Interact with Enemies**: Click on the enemies to "kill" them. The game will update the score and health based on the actions.
+
+## SinglyLinkedList
+The game utilizes a custom SinglyLinkedList for managing enemies. You can find the implementation of the SinglyLinkedList class in the datastruktur-portfolio repository. ()
+
+## Contributing
+Feel free to fork the repository, make improvements, and submit pull requests. 
+If you have any questions or suggestions, please open an issue on GitHub.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
